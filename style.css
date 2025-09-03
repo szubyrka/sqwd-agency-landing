@@ -1,65 +1,65 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./assets/fonts/OpenSans/OpenSans-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans/OpenSans-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./assets/fonts/OpenSans/OpenSans-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('./assets/fonts/OpenSans/OpenSans-SemiBold.ttf');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('./assets/fonts/Oswald/Oswald-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald/Oswald-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('./assets/fonts/Oswald/Oswald-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald/Oswald-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('./assets/fonts/Oswald/Oswald-Medium.ttf');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald/Oswald-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('./assets/fonts/Oswald/Oswald-Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald/Oswald-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('./assets/fonts/Oswald/Oswald-Heavy.ttf');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald/Oswald-Heavy.ttf');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 /**
