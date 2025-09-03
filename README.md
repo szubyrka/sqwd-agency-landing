@@ -1,24 +1,24 @@
 # SQWD Agency Landing
 
-Одностраничный лендинг для вымышленного диджитал-агентства **SQWD**, разработанный на чистом **HTML** и **CSS** без использования JavaScript. Проект создан с целью демонстрации семантической вёрстки.
+A one-page landing site for the fictional digital agency SQWD, built with pure HTML and CSS without using JavaScript. The project was created to demonstrate semantic markup.
 
-## 🖼️ Превью
+## 🖼️ Preview
 
 ![SQWD Landing Screenshot](./assets/images/preview.png)
 
-## 🔗 Демо
+## 🔗 Demo
 
-**[Посмотреть онлайн](https://szubyrka.github.io/sqwd-agency-landing/)**
+**[View Online](https://szubyrka.github.io/sqwd-agency-landing/)**
 
-## 🚀 Особенности
+## 🚀 Features
 
-- Чистый, валидный HTML5-код
-- Стилизовано с использованием CSS3 (Flexbox, Grid)
-- Без JavaScript
-- Семантическая вёрстка
-- Поддержка современных десктопных браузеров
+- Clean, valid HTML5 code
+- Styled using CSS3 (Flexbox, Grid)
+- No JavaScript
+- Semantic markup
+- Support for modern desktop browsers
 
-## 📁 Структура проекта
+## 📁 Project Structure
 
 ```
 ├── index.html
@@ -30,23 +30,23 @@
 └── LICENSE
 ```
 
-## 🛠️ Используемые технологии
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Grid)
 
-## 📌 Заметки
+## 📌 Notes
 
-- Проект создан исключительно в учебных и демонстрационных целях.
-- Все изображения взяты из [макета в Figma](https://www.figma.com/file/kj9nSCo1ecFqlJ78QBmX92/Сайт-о-digital-агенстве?node-id=0%3A17&mode=dev).
+- This project is created solely for educational and demonstration purposes.
+- All images are taken from the [Figma design mockup](https://www.figma.com/file/kj9nSCo1ecFqlJ78QBmX92/Сайт-о-digital-агенстве?node-id=0%3A17&mode=dev).
 
-## 📄 Лицензия
+## 📄 License
 
-Этот проект распространяется под лицензией [MIT](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
-## 📬 Контакты
+## 📬 Contacts
 
-Если хочешь связаться со мной:
+If you'd like to get in touch:
 
 - GitHub: [@szubyrka](https://github.com/szubyrka)
 - Email: [szubyrka@gmail.com](mailto:szubyrka@gmail.com)
