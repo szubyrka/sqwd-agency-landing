@@ -268,3 +268,125 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+
+.hero {
+  background: url('./assets/images/hero-bg.jpg') no-repeat center/cover;
+  height: 900px;
+}
+
+.container {
+  max-width: calc(1180px + 10px * 2);
+  padding-inline: 10px;
+  margin-inline: auto;
+}
+
+.hero__inner {
+  padding-block: 74px 20px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__list {
+  display: flex;
+  column-gap: 58px;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+}
+
+.header__link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 2px;
+  background-color: #4CAF50;
+  transition-duration: 0.3s;
+}
+
+.header__link:hover::after {
+  width: 100%;
+}
+
+.hero__heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  text-align: center;
+}
+
+.hero__title {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.hero__subtitle {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero__pagination {
+  display: flex;
+  column-gap: 9px;
+  align-items: flex-end;
+}
+
+.hero__pagination-item {
+  color: #fff;
+  opacity: 0.4;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero__pagination-item--current {
+  opacity: 1;
+  font-size: 36px;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__pagination-item--current::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  width: 14px;
+  height: 2px;
+  background-color: #4CAF50;
+}
+
+.hero__pagination-item--current::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  z-index: 0;
+  width: 19px;
+  height: 2px;
+  z-index: -1;
+  background-color: #4CAF50;
+}

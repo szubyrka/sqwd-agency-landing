@@ -4,7 +4,7 @@ A one-page landing site for the fictional digital agency SQWD, built with pure H
 
 ## 🖼️ Preview
 
-![SQWD Landing Screenshot](./assets/images/preview.png)
+![SQWD Landing Screenshot](./assets/images/preview.jpg)
 
 ## 🔗 Demo
 
