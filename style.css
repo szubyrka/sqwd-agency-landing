@@ -390,3 +390,83 @@ svg * {
   z-index: -1;
   background-color: #4CAF50;
 }
+
+.about {
+  padding-block: 226px 200px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+}
+
+.about__left-content {
+  position: relative;
+  z-index: 1;
+}
+
+.about__left-content::after {
+  content: url('./assets/images/about-man.jpg');
+  width: 310px;
+  height: 390px;
+  position: absolute;
+  top: -78px;
+  right: -194px;
+  z-index: -1;
+}
+
+.about__left-content + .about__subtitle {
+  align-self: flex-end;
+  margin-top: 32px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.about__left-content + .about__subtitle::after {
+  content: url('./assets/images/about-greenbox-stand-man.png');
+  width: 520px;
+  height: 500px;
+  position: absolute;
+  top: -342px;
+  right: 260px;
+  z-index: -1;
+}
+
+.about__title {
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+  margin-left: -30px;
+  margin-bottom: 32px;
+}
+
+.about__title span {
+  font-size: 42px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #504E4E;
+}
+
+.about__subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #5B5858;
+  position: relative;
+  max-width: 280px;
+}
+
+.about__subtitle::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: -30px;
+  width: 20px;
+  height: 2px;
+  background-color: #353535;
+}
