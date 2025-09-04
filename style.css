@@ -470,3 +470,124 @@ svg * {
   height: 2px;
   background-color: #353535;
 }
+
+.services {
+  background-color: #FBFBFB;
+  padding-block: 136px;
+}
+
+.services__inner {
+}
+
+.services__title {
+  color: #252525;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  margin-bottom: 94px;
+  position: relative;
+}
+
+.services__title::before {
+  content: '';
+  width: 45px;
+  height: 2px;
+  background-color: #252525;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+}
+
+.services__cards {
+  display: flex;
+  column-gap: 28px;
+}
+
+.services__card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 45px 35px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.services__card::before {
+  content: '';
+  width: 100%;
+  height: 0;
+  background-color: #70BF73;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+
+.services__card:hover::before {
+  height: 3px;
+}
+
+.services__card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__card-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #252525;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.services__card-title::before {
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: #252525;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.services__card-icon {
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0 #DBDBDB;
+}
+
+.services__card-icon svg {
+  color: #BCBCBC;
+  fill: currentColor;
+  transition-duration: 0.3s;
+}
+
+.services__card-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.services__card-link {
+  color: #252525;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  opacity: 0.5;
+  width: 48px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.services__card-link:hover {
+  opacity: 1;
+}
+
+.services__card:hover svg {
+  color: #252525;
+}
