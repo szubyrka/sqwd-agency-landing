@@ -635,7 +635,6 @@ svg * {
 .works__item--first::before {
   content: '100 YEARS PHOTOGRAPHY';
   color: #252525;
-  width: 200px;
   font-size: 48px;
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
@@ -743,4 +742,49 @@ svg * {
   position: absolute;
   top: 8px;
   left: 26px;
+}
+
+.works__item--third {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 730px;
+  right: 0;
+}
+
+.works__item--third::before {
+  content: 'GROOVEMADE PRODUCTS FOR MAC';
+  color: #252525;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  max-width: 400px;
+  position: absolute;
+  bottom: 180px;
+  left: -130px;
+  z-index: 1;
+  text-align: left;
+}
+
+.works__item--third .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-right: 125px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.works__item--third .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--third .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  align-self: flex-end;
+  color: #C2C2C2;
 }
