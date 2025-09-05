@@ -476,10 +476,7 @@ svg * {
   padding-block: 136px;
 }
 
-.services__inner {
-}
-
-.services__title {
+.title {
   color: #252525;
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
@@ -487,7 +484,7 @@ svg * {
   position: relative;
 }
 
-.services__title::before {
+.title::before {
   content: '';
   width: 45px;
   height: 2px;
@@ -590,4 +587,8 @@ svg * {
 
 .services__card:hover svg {
   color: #252525;
+}
+
+.works {
+  padding-block: 164px 174px;
 }
