@@ -590,7 +590,7 @@ svg * {
 }
 
 .works {
-  padding-block: 164px 174px;
+  margin-block: 164px 174px;
   height: 1652px;
 }
 
