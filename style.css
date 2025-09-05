@@ -476,10 +476,7 @@ svg * {
   padding-block: 136px;
 }
 
-.services__inner {
-}
-
-.services__title {
+.title {
   color: #252525;
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
@@ -487,7 +484,7 @@ svg * {
   position: relative;
 }
 
-.services__title::before {
+.title::before {
   content: '';
   width: 45px;
   height: 2px;
@@ -590,4 +587,260 @@ svg * {
 
 .services__card:hover svg {
   color: #252525;
+}
+
+.works {
+  margin-block: 164px 174px;
+  height: 1652px;
+}
+
+.works__inner {
+  position: relative;
+}
+
+.works__categories {
+  display: flex;
+  column-gap: 40px;
+}
+
+.works__categories-item {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  position: relative;
+  color: #252525;
+  opacity: 0.3;
+  transition-duration: 0.3s;
+}
+
+.works__categories-item:hover {
+  opacity: 1;
+}
+
+.works__categories-item--current {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.works__item--first {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.works__item--first::before {
+  content: '100 YEARS PHOTOGRAPHY';
+  color: #252525;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  max-width: 295px;
+  position: absolute;
+  bottom: 180px;
+  left: -130px;
+  z-index: 1;
+  text-align: left;
+}
+
+.works__item--first .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-right: 125px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.works__item--first .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--first .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  align-self: flex-end;
+  color: #C2C2C2;
+}
+
+.works__item--second {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 360px;
+  left: 0;
+}
+
+.works__item--second::before {
+  content: 'A KITTEN’S LIFE';
+  color: #252525;
+  width: 210px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  position: absolute;
+  bottom: 180px;
+  right: -130px;
+  z-index: 1;
+  text-decoration: 3px line-through #70BF73;
+}
+
+.works__item--second .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-left: 174px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 18px;
+}
+
+.works__item--second .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--second .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  color: #C2C2C2;
+}
+
+.works__item--second .works__desc-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #252525;
+  text-decoration: none;
+  position: relative;
+}
+
+.works__item--second .works__desc-link::before {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: #70BF73;
+  position: absolute;
+  top: 8px;
+  left: -3px;
+  z-index: -1;
+}
+
+.works__item--second .works__desc-link::after {
+  content: '';
+  width: 52px;
+  height: 3px;
+  background-color: #70BF73;
+  position: absolute;
+  top: 8px;
+  left: 26px;
+}
+
+.works__item--third {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 730px;
+  right: 0;
+}
+
+.works__item--third::before {
+  content: 'GROOVEMADE PRODUCTS FOR MAC';
+  color: #252525;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  max-width: 400px;
+  position: absolute;
+  bottom: 180px;
+  left: -130px;
+  z-index: 1;
+  text-align: left;
+}
+
+.works__item--third .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-right: 125px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.works__item--third .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--third .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  align-self: flex-end;
+  color: #C2C2C2;
+}
+
+.works__item--fourth {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 1094px;
+  left: 0;
+}
+
+.works__item--fourth::before {
+  content: 'APPLE’s LOST MAGIC';
+  color: #252525;
+  width: 210px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  position: absolute;
+  bottom: 180px;
+  right: -130px;
+  z-index: 1;
+}
+
+.works__item--fourth .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-left: 174px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 18px;
+}
+
+.works__item--fourth .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--fourth .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  color: #C2C2C2;
+}
+
+.works__view-more-link {
+  position: absolute;
+  right: 2px;
+  bottom: -1450px;
+  text-decoration: none;
+  color: #252525;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
