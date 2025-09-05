@@ -910,3 +910,57 @@ svg * {
   font-weight: 300;
   font-size: 12px;
 }
+
+.reviews__inner {
+  padding-block: 118px;
+  position: relative;
+}
+
+.reviews__item {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.reviews__item-message {
+  color: #373737;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 735px;
+}
+
+.reviews__item-reviewer-name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #B8B8B8;
+}
+
+.reviews__item-reviewer-name span {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #373737;
+}
+
+.reviews__item-bottom-divider {
+  width: 510px;
+  height: 1px;
+  background-color: #D8D8D8;
+  opacity: 0.5;
+}
+
+.reviews__arrow-back {
+  position: absolute;
+  bottom: 118px;
+  left: 0;
+}
+
+.reviews__arrow-next {
+  position: absolute;
+  bottom: 118px;
+  right: 0;
+}
