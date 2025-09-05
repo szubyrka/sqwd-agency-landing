@@ -964,3 +964,130 @@ svg * {
   bottom: 118px;
   right: 0;
 }
+
+.footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+}
+
+.footer__actions {
+  display: flex;
+}
+
+.lets-work-together {
+  flex: 1;
+  background-color: #FBFBFB;
+  padding-block: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.lets-work-together__icon {
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.lets-work-together__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #373737;
+}
+
+.lets-work-together__subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #373737;
+  opacity: 0.8;
+}
+
+.lets-work-together__next {
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.contact-us {
+  flex: 1;
+  background-color: #70BD59;
+  padding-block: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  cursor: pointer;
+}
+
+.contact-us__icon {
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.contact-us__title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.contact-us__subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.contact-us__next {
+  display: inline-block;
+  margin-inline: auto;
+}
+
+.footer__top {
+  padding-block: 82px;
+  text-align: center;
+  color: #fff;
+  background-color: #2E2E2E;
+}
+
+.footer__top-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.footer__top-copyright {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer__top-contacts {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.footer__top-socials {
+  display: inline-block;
+}
+
+.footer__bottom {
+  background-color: #252525;
+  padding-block: 20px;
+}
+
+.footer__bottom-copyright {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+}
