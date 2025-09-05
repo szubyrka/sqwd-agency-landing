@@ -833,3 +833,14 @@ svg * {
   max-width: 270px;
   color: #C2C2C2;
 }
+
+.works__view-more-link {
+  position: absolute;
+  right: 2px;
+  bottom: -1450px;
+  text-decoration: none;
+  color: #252525;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
