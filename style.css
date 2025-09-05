@@ -788,3 +788,48 @@ svg * {
   align-self: flex-end;
   color: #C2C2C2;
 }
+
+.works__item--fourth {
+  max-width: 455px;
+  height: 555px;
+  text-align: right;
+  position: absolute;
+  top: 1094px;
+  left: 0;
+}
+
+.works__item--fourth::before {
+  content: 'APPLE’s LOST MAGIC';
+  color: #252525;
+  width: 210px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  position: absolute;
+  bottom: 180px;
+  right: -130px;
+  z-index: 1;
+}
+
+.works__item--fourth .works__desc {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+  padding-left: 174px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 18px;
+}
+
+.works__item--fourth .works__desc-title {
+  font-size: 18px;
+}
+
+.works__item--fourth .works__desc-subtitle {
+  font-size: 13px;
+  max-width: 270px;
+  color: #C2C2C2;
+}
